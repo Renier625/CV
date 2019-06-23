@@ -1,24 +1,36 @@
 body {
   margin: 0;
   text-align: center;
-  font-family: 'Merriweather', serif;
+  font-family: 'Basic', sans-serif;
 }
 
 h1 {
-  margin: 115px auto 0 auto;
-  font-family: 'Sacramento', cursive;
+  margin: 60px auto 0 auto;
+  font-family: 'Bad Script', cursive;
   font-size: 5.625rem;
-  color: #66BFBF;
+  color: #248ea9;
 }
 
 h2 {
-  font-family: 'Montserrat', sans-serif;
-  color: #66BFBF;
+  font-family: 'Rancho', cursive;
+  color: #248ea9;
+  font-size: 1.875rem;
+  font-weight: normal;
+  margin-bottom: 3.125rem;
+  margin-top: 0;
 }
 
 h3 {
   font-family: 'Montserrat', sans-serif;
   color: #11999E;
+}
+
+hr {
+  border-style: none;
+  border-top: dotted;
+  border-width: 8px;
+  border-color: powderblue;
+  width: 5%;
 }
 
 .top {
@@ -51,23 +63,50 @@ h3 {
   margin-bottom: -3px;
 }
 
-
-.skills-image-1 {
-  width: 7%;
-  height: 7%;
-  border-radius: 10px;
-  margin-top: 20px;
+.skill-row {
+  width: 50%;
+  margin: 30px auto 100px auto;
+  text-align: left;
+  line-height: 2;
 }
 
-.title {
-font-size: 25px;
-font-weight: normal;
-line-height: 2;
-}
 
 .bottom {
   background-color: powderblue;
   padding: 25px 25px 25px 25px;
   margin-top: 20px;
+}
 
+ .coding {
+   width: 25%;
+   float: left;
+   margin-right: 30px;
+ }
+
+ .CS2 {
+   width: 25%;
+   float: right;
+   margin-left: 30px;
+ }
+
+.body-headers {
+  margin: 0;
+}
+
+.btn {
+  border: 0.5rem outset pink;
+    outline: 0.5rem solid khaki;
+    box-shadow: 0 0 0 2rem skyblue;
+    border-radius: 12px;
+    font: bold 1rem sans-serif;
+    margin: 2rem;
+    padding: 1rem;
+    outline-offset: 0.5rem;
+  }
+.bot-margin {
+  margin-bottom: 80px;
+}
+
+.contact-me {
+  margin-bottom: 80px;
 }
